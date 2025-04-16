@@ -1,9 +1,13 @@
-
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function Home() {
   return (
    <div>
-    Hello
+    <Input placeholder="Hello"/>
+    <Button variant={"elevated"}>
+      Hello
+    </Button>
    </div>
   );
 }
